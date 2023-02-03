@@ -1,1 +1,1 @@
-# java-data-strusctures
+# java-data-structures
