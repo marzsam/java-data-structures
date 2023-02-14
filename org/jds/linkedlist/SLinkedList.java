@@ -1,6 +1,6 @@
-package org.java.linkedlist;
+package org.jds.linkedlist;
 
-import org.java.node.Node;
+import org.jds.node.Node;
 
 public class SLinkedList<E> {
     

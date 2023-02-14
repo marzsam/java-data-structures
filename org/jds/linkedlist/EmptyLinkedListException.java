@@ -1,4 +1,4 @@
-package org.java.linkedlist;
+package org.jds.linkedlist;
 
 public class EmptyLinkedListException extends RuntimeException{
 

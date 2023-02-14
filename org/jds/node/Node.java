@@ -1,4 +1,4 @@
-package org.java.node;
+package org.jds.node;
 
 public class Node<E>{
     

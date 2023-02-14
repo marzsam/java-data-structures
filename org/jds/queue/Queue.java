@@ -1,4 +1,4 @@
-package org.java.queue;
+package org.jds.queue;
 
 public interface Queue<E> {
     

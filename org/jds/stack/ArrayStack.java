@@ -1,4 +1,4 @@
-package org.java.stack;
+package org.jds.stack;
 
 public class ArrayStack<E> implements Stack<E> {
 
