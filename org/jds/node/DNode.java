@@ -5,6 +5,12 @@ public class DNode<E> {
     protected E element;
     protected DNode<E> next, prev;
 
+    public DNode(){
+        this.element = null;
+        this.next = null;
+        this.prev = null;
+    }
+
     public DNode(E element, DNode<E> next, DNode<E> prev){
         this.element = element;
         this.next = next;
