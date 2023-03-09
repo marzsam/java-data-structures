@@ -41,4 +41,18 @@ public class NodeStack<E> implements Stack<E> {
         return top.getElement();
     }
 
+    public String toString(){
+        String str = "";
+        if(size==0)
+            return str;
+        Node<E> tNode = top;
+        str = " "+tNode.getElement().toString();
+        while(tNode.getNext()!=null){
+            tNode = tNode.getNext();
+            str += " "+tNode.getElement().toString();
+        }
+        return str;
+
+    }
+
 }
